@@ -1,0 +1,6 @@
+# Yönlendirmeleri aktif eder
+RewriteEngine on
+
+# Yeni bir yönlendirme kuralı ekliyoruz
+RewriteRule ^([0-9a-zA-Z-_]+)/([0-9]+)$  yazi.php?id=$1&id=$2 [L,QSA]
+
