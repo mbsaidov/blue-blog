@@ -1,0 +1,1 @@
+[01-Jan-2015 15:42:53 Europe/Istanbul] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/pelikanw/public_html/demo/blog/yonetim/index.php on line 140

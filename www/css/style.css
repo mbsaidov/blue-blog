@@ -1,0 +1,432 @@
+a   {
+	text-decoration: none;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #333;
+	background-attachment: fixed;
+	background-image: url(../resimler/background.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.dis {
+	background-color: #275A68;
+	width: 1100px;
+	height: auto;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+.genel {
+	position: absolute;
+	background-color: #212d3e;
+	height: auto;
+	width: 1100px;
+	margin-bottom: 50px;
+}
+.sol {
+	width: 275px;
+	height: 100%;
+	float: left;
+	background-color: #212D3E;
+	clear: right;
+}
+.makaleler {
+	box-shadow: 0 0 0 0,0 5px 19px rgba(55, 61, 74, 1);
+	background-color: #E4EAED;
+	height: 330px;
+	width: 715px;
+	margin-top: 50px;
+	margin-left: 60px;
+}
+.search-makaleler {
+	box-shadow: 0 0 0 0,0 5px 19px rgba(55, 61, 74, 1);
+	background-color: #E4EAED;
+	height: 500px;
+	width: 715px;
+	margin-top: 50px;
+	margin-left: 60px;
+	padding-bottom: 30px;
+	clear: both;
+}
+.kat-baslik {
+	margin-left: 60px;
+	color: #E4EAED;
+	font-size: 18px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #E4EAED;
+}
+.kat-baslik h4 {
+	padding: 0px;
+	margin-top: 40px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+
+.navi {
+	box-shadow: 0 0 0 0,0 5px 19px rgba(55, 61, 74, 1);
+	background-color: #E4EAED;
+	height: 65px;
+	width: 715px;
+	margin-top: 50px;
+	margin-left: 60px;
+	padding-top: 10px;
+}
+.navi table {
+	margin-right: auto;
+	margin-left: auto;
+}
+.search {
+	width: 357px;
+	margin-left: 35px;
+	margin-top: 20px;
+	float: left;
+}
+
+#search_text {
+  width: 297px;
+  padding: 15px 0 15px 20px;
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+  border: 0 none;
+  height: 42px;
+  margin-right: 0px;
+  color: white;
+  outline: none;
+  background: #508e8e;
+  float: left;
+  box-sizing: border-box;
+  transition: all 0.15s;
+}
+::-webkit-input-placeholder {
+  color:white;
+}
+:-moz-placeholder {
+  color:white;
+}
+::-moz-placeholder {
+  color:white;
+}
+:-ms-input-placeholder {
+  color:white;
+}
+#search_text:focus{
+  background: rgb(64, 151, 119);
+}
+#search_button{
+  border: 0 none;
+  background: #508e8e url(http://designmodo.com/demo/dropdown-menu-search/search.png) center no-repeat;
+  width: 60px;
+  float: left;
+  padding: 0;
+  text-align: center;
+  height: 42px;
+  cursor: pointer;
+}
+.makale {
+	box-shadow: 0 0 0 0,0 5px 19px rgba(55, 61, 74, 1);
+	background-color: #E4EAED;
+	height: auto;
+	width: 790px;
+	margin-left: 15px;
+	padding-bottom: 10px;
+}
+.iletisim {
+	box-shadow: 0 0 0 0,0 5px 19px rgba(55, 61, 74, 1);
+	background-color: #E4EAED;
+	height: 430px;
+	width: 790px;
+	margin-left: 15px;
+	padding-bottom: 10px;
+}
+#iletisim4 {
+	background-color: #F2F2F2;
+	height: 35px;
+	margin-top: 20px;
+	width: 100px;
+	border: 1px solid #CCC;
+}
+
+.aciklama span {
+	background-color: #386f75;
+	font-weight: bold;
+	color: #EEE;
+	font-size: 10px;
+	margin-left: 15px;
+	padding: 3px;
+}
+.makaleler .tarih {
+	text-shadow: 1.2px 1.2px #333;
+	z-index: 3;
+	margin-top: -30px;
+	background-color: #366c74;
+	height: 12px;
+	margin-left: 30px;
+	position:absolute;
+	padding-top: 5px;
+	padding-right: 7px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	font-weight: bold;
+	color: #EEE;
+	font-size: 10px;
+}
+.y-tarih  {
+	text-shadow: 1.2px 1.2px #333;
+	z-index: 3;
+	margin-top: -60px;
+	background-color: #8e7b8e;
+	height: 12px;
+	position:absolute;
+	padding-top: 5px;
+	padding-right: 7px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	font-weight: bold;
+	color: #EEE;
+	font-size: 10px;
+	margin-right: 30px;
+	margin-left: 700px;
+}
+
+.m-baslik {
+	text-shadow: 1.2px 1.2px #333;
+	z-index: 2;
+	margin-top: -210px;
+	background-color: #366c74;
+	height: 15px;
+	margin-left: 30px;
+	position:absolute;
+	padding-top: 13px;
+	padding-right: 25px;
+	padding-bottom: 13px;
+	padding-left: 20px;
+	font-weight: bold;
+	color: #EEE;
+}
+.a-baslik {
+	text-shadow: 1.2px 1.2px #EFEFEF;
+	z-index: 2;
+	height: 15px;
+	margin-left: 30px;
+	position:absolute;
+	padding-top: 13px;
+	padding-right: 25px;
+	padding-bottom: 13px;
+	padding-left: 20px;
+	font-weight: bold;
+	color: #366c74;
+}
+.y-baslik {
+	text-shadow: 1.2px 1.2px #333;
+	z-index: 2;
+	margin-top: -70px;
+	background-color: #8e7b8e;
+	height: 15px;
+	margin-left: 30px;
+	position:absolute;
+	padding-top: 13px;
+	padding-right: 25px;
+	padding-bottom: 13px;
+	padding-left: 20px;
+	font-weight: bold;
+	color: #EEE;
+}
+.s-baslik {
+	text-shadow: 1px 1px #A1B2BA;
+	margin-top: 10px;
+	height: 15px;
+	padding-top: 25px;
+	padding-right: 25px;
+	padding-bottom: 13px;
+	padding-left: 20px;
+	font-weight: bold;
+	color: #508e8e;
+	position: relative;
+	width: 300px;
+	font-size: 20px;
+}
+#yorum {
+	width: 750px;
+	margin-left: 10px;
+}
+
+.aciklama p {
+	text-shadow: 1.2px 1.2px #CCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #3A3A3A;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	float: left;
+	line-height: 17px;
+	height: auto;
+}
+.yazi-icerik p {
+	text-shadow: 1.2px 1.2px #CCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #3A3A3A;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	float: left;
+	line-height: 17px;
+	height: auto;
+}
+.yazi-icerik {
+	float: left;
+	clear: both;
+	margin: 0px;
+}
+
+
+
+
+.logo {
+	
+	background-color: #2c3848;
+	height: 56px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #d6b60d;
+	font-size: 20px;
+	padding-top: 8px;
+	padding-left: 40px;
+	font-weight: lighter;
+	padding-bottom: 16px;
+}
+.ust {
+	float: left;
+	height: 80px;
+	width: 825px;
+	background-image: url(../resimler/ustbg.png);
+}
+.kategori {
+	height: 500px;
+	width: 100%;
+	background-image: url(../resimler/sbg.png);
+	padding-top: 50px;
+	background-color: #212D3E;
+	background-repeat: no-repeat;
+	}
+.kategori ul {
+	padding: 0px;
+	margin: 0px;
+}
+.kategori ul li {
+	color: #D3DBE4;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	list-style-type: none;
+	width: 275px;
+	}
+.kategori ul li a {
+	 -webkit-transition: border 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: border 0.5s;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #CFD8E2;
+	text-decoration: none;
+	width: 222px;
+	float: left;
+	padding-left: 50px;
+	height: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 13px; 
+}
+.kategori ul li a:hover {
+	background-image: url(../resimler/kategori_hover.png);
+	border-left-width: 3px;
+	border-left-style: solid;
+	border-left-color: #e5bf07;
+	float: left;
+}
+.icerik {
+	min-height: 700px;
+	float: left;
+	height: auto;
+	width: 825px;
+	background-image: url(../resimler/obg.png);
+	background-color: #1a495e;
+	background-repeat: no-repeat;
+	padding-bottom: 35px;
+}
+.sayfalar {
+	height: 35px;
+	float: right;
+	width: auto;
+	margin-right: 55px;
+	margin-top: 16px;
+}
+.sayfalar ul li {
+	list-style-type: none;
+	display: block;
+	width: auto;
+	padding-bottom: 1px;
+	float: left;
+	margin-right: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: double;
+	border-bottom-color: #D2D6D6;
+}
+.sayfalar ul li a {
+	font-size: 11px;
+	color: #D2D6D6;
+	text-decoration: none;
+	font-weight: bold;
+}
+.a-baslik a {
+	color: #333;
+	float: left;
+	display: block;
+}
+#iletisim1 {
+	width: 300px;
+	height: 35px;
+	float: left;
+	margin-right: 25px;
+	background-color: #F2F2F2;
+	border: 1px solid #CCC;
+	color: #666;
+	font-size: 13px;
+	padding-left: 10px;
+}
+#iletisim2 {
+	width: 630px;
+	height: 35px;
+	margin-top: 10px;
+	background-color: #F2F2F2;
+	border: 1px solid #CCC;
+	font-size: 13px;
+	color: #666;
+	padding-left: 10px;
+}
+#iletisim3 {
+	margin-top: 10px;
+	width: 630px;
+	height: 145px;
+	background-color: #F2F2F2;
+	border: 1px solid #CCC;
+	font-size: 13px;
+	color: #666;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+#iletisimform {
+	width: 700px;
+	margin-top: 40px;
+}
